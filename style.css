@@ -1,0 +1,133 @@
+html {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+body {
+    background: radial-gradient(#741634 , #330e47);
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+}
+
+#h1 { 
+    font-family: 'Poppins', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 40px ;
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgb(247, 251, 255);
+    text-shadow: 0 0 10px rgb(255, 201, 165), 0 0 25px rgb(254, 193, 255), 0 0 50px rgb(254, 193, 255) ;
+    /* animation: glow 5s ease-in-out infinite; */
+}
+
+#h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(247, 251, 255);
+    text-shadow: 0 0 10px rgb(255, 201, 165), 0 0 25px rgb(254, 193, 255), 0 0 50px rgb(254, 193, 255) ;
+}
+
+.teks {
+    /* height: 800px; */
+    width: 80%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    background: #fff;
+    color: #330e47;
+    padding: 10px;
+    margin: auto;
+    margin top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 2px rgb(255, 201, 165), 0 0 5px rgb(254, 193, 255), 0 0 15px rgb(254, 193, 255);
+
+    
+}
+
+.teks1 {
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 25px;
+    direction: ltr;
+    text-align: end;
+    
+   
+}
+
+img{
+    transform: translateX(650px) translateY(-80px);
+    position:absolute;
+    z-index: 10;
+    width: 150px;
+    height: 150px;
+}
+
+.teks3 {
+    transform: translateX(60px);
+}
+.teks4 {
+    position: relative;
+    direction: ltr;
+    text-align: end;
+    transform: translateX(-120px) ;
+}
+
+.teks5 {
+    font-size: 15px;
+}
+
+.teksmusik {
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: rgb(247, 251, 255);
+    text-shadow: 0 0 10px rgb(255, 201, 165), 0 0 25px rgb(254, 193, 255), 0 0 50px rgb(254, 193, 255) ;
+
+}
+
+
+audio {
+    margin-top: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 2px rgb(255, 201, 165), 0 0 5px rgb(254, 193, 255), 0 0 15px rgb(254, 193, 255);
+
+}
+
+.teks6 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(255, 201, 165), 0 0 10px rgb(254, 193, 255), 0 0 25px rgb(254, 193, 255) ;
+}
+.teks7 {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-size: 20px;
+}
+
+@keyframes glow {
+    0%,
+    100% {
+        color: #fff;
+        text-shadow: 0 0 10px rgb(254, 193, 255), 0 0 25px rgb(254, 193, 255), 0 0 50px rgb(254, 193, 255) ;
+
+    }
+
+    20%,
+    90% {
+        color: rgb(0,0,0,0);
+        text-shadow: none;
+    }
+}
